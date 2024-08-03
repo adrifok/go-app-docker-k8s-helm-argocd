@@ -9,7 +9,7 @@ spec:
   rules:
   - host: go-web-app.local
     http:
-      paths: 
+      paths:
       - path: /
         pathType: Prefix
         backend:
