@@ -6,7 +6,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app.kubernetes.io/name: go-web-app # This should match the label in your Deployment
+    app: go-web-app # This should match the label in your Deployment
   ports:
     - protocol: TCP
       port: 80
