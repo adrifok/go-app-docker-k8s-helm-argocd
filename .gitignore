@@ -7,8 +7,9 @@
 *.so
 *.dylib
 
-# yml file
+# yml files to ignore
 ci.yml
+
 
 # Test binary, built with `go test -c`
 *.test
